@@ -1,0 +1,13 @@
+webUtilities\webActions.class
+stepdefinition\MyStepdefs.class
+WebPageObjects\logout.class
+WebPageObjects\confirmDelete.class
+WebPageObjects\menuItems.class
+WebPageObjects\searchBooking.class
+WebPageObjects\searchHotel.class
+WebPageObjects\bookHotel.class
+WebPageObjects\loginAdactin.class
+webUtilities\webUtilities.class
+PageObjects\webFunctions.class
+WebPageObjects\seleHotel.class
+features\hotelrunner.class

@@ -1,0 +1,265 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8343092600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user launches \"chrome\" and navigates to the Adactin web page \"http://adactinhotelapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 17
+                },
+                {
+                  "val": "http://adactinhotelapp.com",
+                  "offset": 64
+                }
+              ],
+              "location": "MyStepdefs.a_user_launches_and_navigates_to_the_Adactin_web_page(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4313786000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user enters the \"AutoTestb\" and \"84JLRY\" and clicks login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AutoTestb",
+                  "offset": 19
+                },
+                {
+                  "val": "84JLRY",
+                  "offset": 35
+                }
+              ],
+              "location": "MyStepdefs.a_user_enters_the_and_and_clicks_login(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Successful booking of a hotel",
+        "description": "",
+        "id": "book-hotel-feature;successful-booking-of-a-hotel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1539171700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#Then a user login successfully and a search page is opened successfully"
+              }
+            ],
+            "line": 11,
+            "name": "a user populates fields in the search page and clicks continue \"London\", \"Hotel Creek\", \"Standard\", \"2 - Two\", \"22/05/2022\", \"23/05/2022\", \"2 - Two\", \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 64
+                },
+                {
+                  "val": "Hotel Creek",
+                  "offset": 74
+                },
+                {
+                  "val": "Standard",
+                  "offset": 89
+                },
+                {
+                  "val": "2 - Two",
+                  "offset": 101
+                },
+                {
+                  "val": "22/05/2022",
+                  "offset": 112
+                },
+                {
+                  "val": "23/05/2022",
+                  "offset": 126
+                },
+                {
+                  "val": "2 - Two",
+                  "offset": 140
+                },
+                {
+                  "val": "1 - One",
+                  "offset": 151
+                }
+              ],
+              "location": "MyStepdefs.a_user_populates_fields_in_the_search_page_and_clicks_continue(String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040980400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "#Then a user is navigated to the select page successfully"
+              }
+            ],
+            "line": 13,
+            "name": "a user selects a hotel from the selection page and click continue",
+            "match": {
+              "location": "MyStepdefs.a_user_selects_a_hotel_from_the_selection_page_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6193515800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 14,
+                "value": "#Then a booking confirmation page is opened successfully"
+              }
+            ],
+            "line": 15,
+            "name": "a user populates the book with valid data and clicks confirm \"test\", \"test\", \"test\", \"4323212345676543\", \"VISA\", \"August\", \"2022\", \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 62
+                },
+                {
+                  "val": "test",
+                  "offset": 70
+                },
+                {
+                  "val": "test",
+                  "offset": 78
+                },
+                {
+                  "val": "4323212345676543",
+                  "offset": 86
+                },
+                {
+                  "val": "VISA",
+                  "offset": 106
+                },
+                {
+                  "val": "August",
+                  "offset": 114
+                },
+                {
+                  "val": "2022",
+                  "offset": 124
+                },
+                {
+                  "val": "123",
+                  "offset": 132
+                }
+              ],
+              "location": "MyStepdefs.a_user_populates_the_book_with_valid_data_and_clicks_confirm(String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18366600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a order is generated and the booking is successful",
+            "match": {
+              "location": "MyStepdefs.a_order_is_generated_and_the_booking_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1046167000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a user clicks logout",
+            "match": {
+              "location": "MyStepdefs.a_user_clicks_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3192300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a user is successfully logged out",
+            "match": {
+              "location": "MyStepdefs.a_user_is_successfully_logged_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run1"
+          }
+        ]
+      }
+    ],
+    "name": "Book hotel Feature",
+    "description": "",
+    "id": "book-hotel-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/BookHotel.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run1"
+      }
+    ]
+  }
+]
